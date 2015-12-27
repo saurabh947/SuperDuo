@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/widget_shape"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_medium">
+
+    <TextView
+        android:id="@+id/team_1"
+        style="@android:style/TextAppearance.Medium"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:singleLine="true"
+        tools:text="Team 1"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/time"
+            style="@android:style/TextAppearance.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:paddingEnd="@dimen/padding_small"
+            android:paddingRight="@dimen/padding_small"
+            android:singleLine="true"
+            tools:text="Time"/>
+
+        <TextView
+            android:id="@+id/score"
+            style="@android:style/TextAppearance.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_small"
+            android:layout_marginStart="@dimen/padding_small"
+            android:ellipsize="end"
+            android:singleLine="true"
+            tools:text="Score"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/team_2"
+        style="@android:style/TextAppearance.Medium"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:singleLine="true"
+        tools:text="Team 2"/>
+</LinearLayout>
