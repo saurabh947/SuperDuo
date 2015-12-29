@@ -40,4 +40,15 @@
     <string name="widget_reload">Reload data</string>
     <string name="widget_error_text_1">Unable to get data.</string>
     <string name="widget_error_text_2">Tap to try again.</string>
+
+    <string name="team_arsenal_london">Arsenal FC</string>
+    <string name="team_manchester_united">Manchester United FC</string>
+    <string name="team_swansea_city">Swansea City FC</string>
+    <string name="team_leicester_city">Leicester City FC</string>
+    <string name="team_everton">Everton FC</string>
+    <string name="team_west_ham">West Ham United FC</string>
+    <string name="team_tottenham_hotspur">Tottenham Hotspur FC</string>
+    <string name="team_west_albion">West Bromwich Albion FC</string>
+    <string name="team_sunderland">Sunderland AFC</string>
+    <string name="team_stoke_city">Stoke City FC</string>
 </resources>
